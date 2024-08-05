@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Together from 'together-ai';
 import ClipLoader from 'react-spinners/ClipLoader';
-import { ThumbsUp, ThumbsDown } from 'lucide-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCog, faInfoCircle, faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
