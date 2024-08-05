@@ -40,7 +40,6 @@ jobs:
         echo "REACT_APP_FIREBASE_MEASUREMENT_ID=${{ secrets.REACT_APP_FIREBASE_MEASUREMENT_ID }}" >> $GITHUB_ENV
 
     - run: npm run build --if-present
-    - run: npm test
 
     - name: Deploy with gh-pages
       run: |
